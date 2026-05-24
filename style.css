@@ -125,6 +125,7 @@ a{
 
     .btn-close{
         filter:invert(1);
+        box-shadow: none !important;
     }
 
     .offcanvas-body{
@@ -167,7 +168,7 @@ a{
         height:100vh;
         background:
         linear-gradient(rgba(0,0,0, 0.5)),
-        url('hero-bg.jpg');
+        url('hero-bg_ATIF.jpg');
         background-size:cover;
         background-position:center;
         display:flex;
@@ -1785,3 +1786,40 @@ a{
         }
 
     }
+
+    /* .clean-check {
+        width: 18px;
+        height: 18px;
+        appearance: none;
+        -webkit-appearance: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .clean-check:checked {
+        color: #1d5080;
+        content: "✔";
+    } */
+     .big-check {
+        transform: scale(2.0);
+        outline: none !important;
+     }
+     .double-check {
+        transform: scale(1.5);
+        outline: none !important;
+     }
+     .form-check-input {
+        outline: none;
+        box-shadow: none !important;
+        border-right: none !important;
+        border-Left: none !important;
+        border-radius: none !important;
+        background-color: #08182f;
+     }
+     th, td {
+        padding: 10px 0px 10px 5px;
+     }
+     table {
+        width: 100%;
+     }
