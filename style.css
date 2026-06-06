@@ -166,9 +166,9 @@ a{
 
     .hero{
         height:100vh;
-        background:
-        linear-gradient(rgba(0,0,0, 0.5)),
-        url('hero-bg_ATIF.png');
+        background-image:
+        linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+        url("hero-bg_atif.png");
         background-size:cover;
         background-position:center;
         display:flex;
